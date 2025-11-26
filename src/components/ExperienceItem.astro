@@ -2,7 +2,7 @@
 const {company, role, duration, description} = Astro.props;
 ---
 
-<div class="border border-gray-300 rounded-lg p-4 mb-4 shadow hover:shadow-lg transition">
+<div class="border border-gray-300 rounded-lg p-4 mb-4 shadow hover:shadow-lg transition bg-[rgba(0,0,0,0.6)]">
   <h3 class="text-xl text-purple-600 font-semibold mb-2">{role} at {company}</h3>
   <p class="text-white italic mb-2">{duration}</p>
   <p class="text-blue-500 opacity-75">{description}</p>
